@@ -1,31 +1,40 @@
+* {
+  box-sizing: border-box;
+  /*margin: 0;
+  padding: 0;*/
+}
+
 html {
   font-family: 'Roboto';
 }
 .article {
-  font-size: 30px;
-  background-color: #333333; /*цвет заливки*/
-  color: white;
-  /* отступ с 4 сторон сразу*/
-  padding: 30px;
-  /*верх,право,низ,лево*/
-  padding: 30px 60px 90px 120px;
-  /*вертикаль,горизонталь*/
-  padding: 30px 60px;
-  /*верх,горизонталь,низ*/
+  display: inline-block;
+  
+  box-sizing: border-box;
+  width: 500px;
+  height: 700px;
   padding: 10px 20px 30px;
-
   border: 20px solid green;
+  margin: 0 0 10px 0;
+  /*
+  отступ с 4 сторон сразу
+  padding: 30px;
+  верх,право,низ,лево
+  padding: 30px 60px 90px 120px;
+  вертикаль,горизонталь
+  padding: 30px 60px;
+  */
+  /*верх,горизонталь,низ*/
   /*border-left: 30px dotted red;
   border-bottom-color: yellow;*/
 
-  margin: 0 0 10px 0;
-
-  width: 500px;
-  height: 700px;
-  display: inline-block;
+  font-size: 30px;
+  background-color: #333333; /*цвет заливки*/
+  color: white;
 }
 
 .article-text {
+  box-sizing: border-box;
  line-height: 1.6;/*межстрочный интервал*/
  /*font-weight: bold;/* жирность текста*/
  font-style: italic;/* курсивность текста */
