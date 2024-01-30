@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  /*margin: 0;
+  padding: 0;*/
 }
 
 /*
@@ -13,8 +13,12 @@
 
 */
 
-div {
-  width: 100vmin;
-  height: 100vmin;
-  border: 10px solid;
+ul{
+  /*
+  list-style
+  list-style-type
+  list-style-position
+  list-style-image
+  */
+  list-style: none;
 }
