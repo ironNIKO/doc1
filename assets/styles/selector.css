@@ -29,7 +29,7 @@ div p {
   color: #12cae6;
 }
 
-div > p 
+div > p,
 div > p > a{
   font-size: 30px;
   color: yellow;
