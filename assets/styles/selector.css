@@ -19,3 +19,27 @@
 [title$="end"] {
   background-color: limegreen;
 }
+
+a[href="https://google.com"][title]#first.class1.class2 {
+  background-color: darkcyan;
+  color: white;
+}
+
+div p {
+  color: #12cae6;
+}
+
+div > p 
+div > p > a{
+  font-size: 30px;
+  color: yellow;
+}
+
+p ~ p {
+  font-weight: bold;
+}
+
+p + p,
+.article > .text + .text {
+  font-style: italic;
+}
