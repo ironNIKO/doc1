@@ -30,7 +30,7 @@
 }
 
 .nav-link::before {
-  content:  ;
+  content: "";
   position: absolute;
   width: 0%;
   top: 0px;
